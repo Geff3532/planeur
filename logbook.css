@@ -1,0 +1,85 @@
+table
+{
+    display: table;
+    /*max-width: 860px;*/
+    width: 99%;
+    border-collapse: collapse;
+    line-height: 20px;
+    margin: 24px auto 48px;
+    table-layout: fixed;
+    justify-content: center;
+    text-align: center;
+    word-wrap: normal;
+    overflow-wrap: break-word;
+    font-size: 18px;
+}
+td
+{
+    display: table-cell;
+    border-bottom: 2px solid rgb(202, 200, 200);
+    /*border: 2px solid rgb(202, 200, 200);*/
+    /*background-color: #fff;*/
+}
+th
+{
+    display: table-cell;
+    border-top: 2px solid rgb(202, 200, 200);
+    border-bottom: 2px solid rgb(202, 200, 200);
+    padding: 16px 16px 16px 16px;
+    font-size: 20px;
+    /*border: 3px solid rgb(126, 124, 124);*/
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(even) 
+{
+    background-color: #4642427e;
+}
+tr:hover
+{
+    background-color: rgb(177, 111, 13);
+    font-size: 20px;
+}
+h1,h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+#header 
+{
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a.hover
+{
+    color:black;
+    font-size: 1.7em;
+}
+a.visited
+{
+    color: black;
+}
+#lien_error_404 
+{
+    text-align: center;
+}
+#selector
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-selector
+{
+    font-size: 30px;
+    color: rgb(40, 45, 173);
+    margin: 10px 10px 10px 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 40, 200);
+}
