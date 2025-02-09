@@ -13,7 +13,7 @@ def process_beacon(raw_message):
             #try:
                 #receiver = dic[beacon['receiver_name']] 
             #except:
-            receiver = dic['LFYR']
+            receiver = dic['****'] // code oaci à rentrer
             glide = table[beacon['address']]
             
             if abs(receiver['altitude'] - beacon['altitude']) < 100 and beacon['ground_speed'] < 30 and glide.get_flying():
@@ -50,7 +50,7 @@ acs_filter = 'p'
 for ogn_id in table.keys():
     acs_filter += '/FLR'+ogn_id
 
-client = AprsClient(aprs_user='ACS',aprs_filter=acs_filter)
+client = AprsClient(aprs_user='**',aprs_filter=acs_filter) //anonyme
 client.connect()
 
 try:
