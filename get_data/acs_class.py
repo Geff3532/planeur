@@ -26,10 +26,10 @@ def import_glider():
     return liste_glide
 
 dic = {
-       'LFYR': {"altitude":88,"position":[47.317616,1.695583]},
-       'LFEK': {"altitude":88,"position":[47.317616,1.695583]},
-       'LFOQ': {"altitude":88,"position":[47.317616,1.695583]}
-       }
+       '****': {"altitude":12,"position":[**,**]},
+       '****': {"altitude":878,"position":[9.316,*.583]},
+       '****': {"altitude":125,"position":[**.3176,*.695]}
+       }  # code oaci proche et basé
 
 class Glider:
     
